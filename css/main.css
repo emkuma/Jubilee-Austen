@@ -1,0 +1,277 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+    padding-left: 0px;
+
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin-left: 120    px;
+    display: inline-block;
+    padding-left: 110px;
+    overflow: hidden;
+}
+
+.half-width {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+/******Header*****/
+
+header {
+    width: 1155px;
+    height: 700px;
+    background: url('../img/hero.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 115px;
+}
+
+header h1:nth-of-type(1) {
+    font-family: 'Lora';
+    font-size: 25px;
+    color: #bbc085;
+    padding: 55px 0 75px 0px;
+}
+
+
+header h1:nth-of-type(2) {
+    color: #abaaaa;
+    clear: inherit;
+    font-family: 'Lora';
+    font-size: 60px;
+    line-height: 63px;
+    margin-bottom: 0
+    padding: 5px 0 40px 0;
+    width: 850px;
+}
+
+header h1 span {
+    color: black;
+}
+
+nav {
+    float: left;
+    padding-top: 65px;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-right: 0;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav ul li a {
+    font-size: normal;
+    color: #abaaaa;
+    padding-left: 25px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/*about section*/
+#about .full-width {
+    height: 400px;
+    background-size: 1200px;
+    font-family: 'Lora', serif;
+    margin-bottom: 70px;
+    margin-left: 130px;
+    padding: 0;
+}
+
+#about .half-width {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #2b2b2b;   
+    margin-top: 70px; 
+}
+
+#about h2 {
+    font-family: 'Lora';
+    font-size: normal;
+    padding-left: 0;
+    margin-left: 110px;
+}
+
+#about p {   
+    line-height: 32px;
+    margin-left: 110px;
+    padding-left: 0;
+
+}
+
+/*#about p:nth-of-type(2) {
+    line-height: 34px;
+    padding-top: 100px;
+    margin-left: 0;
+}*/
+
+
+/*work section*/
+
+#work .full-width {
+    height: 300px;
+    width: 1270px;
+    background-color: #f9ceb7;
+    background-size: cover;
+    color: black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 0;
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 115px;
+}
+
+
+#work .third-width:nth-of-type(1) {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 30px;
+    float: left;
+}
+
+#work .third-width:nth-of-type(2) {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 30px;
+    float: left;
+}
+
+#work .third-width:nth-of-type(3) {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 40px;
+    float: left;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 20px;
+    line-height: normal;
+    width: 178px;
+    margin: 0 auto;
+}
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 50px;
+}
+
+/*Contact section*/
+
+#contact .full-width {
+    width: 1200px;
+    height: 300px;
+    background-color: #ebebeb;
+    background-size: 1200px;
+    color: black;
+    margin-left: 110px;
+    margin-right: 50px;
+    padding: 100px 50px;
+}
+
+#contact .half-width {
+    width: 600px;
+    padding: 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid white;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 113px;
+    color: #c49075;
+}
+
+#contact h1 {
+    font-family: 'Lora';
+    font-size: 30px;
+    line-height: normal;
+    padding-left: 115px;
+}
+
+#contact h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    line-height: normal;
+}
+
+#contact #email-header{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 50px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: inherit;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*
+#contact nav {
+    padding: 0;
+}
+
+#contact ul {
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#contact ul li {
+     display: inline-block;
+     margin-left: 105px;
+     padding: 0;
+}
+
+#contact ul li a {
+    padding: 0;
+}
+
+#contact ul img {
+    padding-right: 0;
+}*/
+
+#contact table {
+    margin-left: 115px;
+    width: 350px;
+    height: 70px;
+}
